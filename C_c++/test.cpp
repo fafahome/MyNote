@@ -4,6 +4,7 @@ static JavaVM *g_JavaVM = NULL;
 static jobject gs_object = NULL;
 static bool g_bAttatedT = false;
 
+
 static JNIEnv *GetEnv()
 {
 	int status;
